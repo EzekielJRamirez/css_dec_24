@@ -1,0 +1,19 @@
+body {
+    font-size: 30px;
+}
+
+p {
+    color: red;
+}
+
+h1, h2 {
+    color: green;
+}
+
+.fun_color {
+    color: yellow;
+}
+
+#slant {
+    font-style: italic;
+}
