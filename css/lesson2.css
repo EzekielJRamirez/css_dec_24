@@ -1,9 +1,36 @@
 body {
-    font-size: 30px;
+    font-size: 20px;
+    border: 5px double navy;
 }
+
+/* INHERITANCE
+ when a p element is under a body element, some details from the body
+ can be inherited into the paragraph. Ex: text size in body can influence
+ the size in paragraph unless the p tag has its own definition of text 
+ size
+
+ mostly properties that influence font will be inherited, otherwise some properties won't be inherited like borders around the body
+*/
+
+/* form elements like buttons, input, textarea, select... do not
+auto inherit font attributes */
 
 p {
     color: red;
+}
+
+p {
+    color: blue;
+}
+
+span {
+    text-transform: uppercase;
+    background-color: brown;
+}
+
+.highlight {
+    text-transform: lowercase;
+    background-color: gold;
 }
 
 h1, h2 {
