@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(228, 188, 134);
+}
+
+main {
+    border: 6px double black;
+    width: 80%;
+}
+
+div {
+    padding-left: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+p {
+    color: darkred;
+}
+
+h1, h2 {
+    margin: 2%;
+}
