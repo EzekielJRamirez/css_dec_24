@@ -1,0 +1,27 @@
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: aqua;
+    width: 50vw;
+}
+*/
+
+
+h1 {
+    border: 4px dashed red;
+}
+
+div {
+    border: 4px double red;
+    width: 80%;
+}
+p {
+    border: 4px dashed red;
+    font-size: 2rem;
+    width: 35ch;
+}
