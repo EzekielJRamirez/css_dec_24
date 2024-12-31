@@ -1,0 +1,28 @@
+/* typography is how text is arranged and presented */
+
+/* shift alt a is the command shortcut to comment code in vsCode */
+
+body {
+    padding: 5%;
+    font-size: 2rem;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+/*     text-align: justify;
+
+    */
+    text-indent: 4em;
+    
+}
+
+.thru {
+    text-decoration: line-through;
+}
+
+.uppers {
+    text-transform: uppercase;
+}
