@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+ol {
+
+/*     list-style-type: upper-roman;
+ */
+    list-style-type: lower-alpha;
+}
+
+ul {
+/*     the following lines are combined further below starting with other 
+    'list-style-image' tag
+ */    
+    list-style-type: square;
+/*     list-style-image: url('../images/checkmark.png');
+ */    
+    list-style-position: inside;
+    line-height: 1.8;
+    text-align: center;
+    color: #060;
+/*     list-style-image: square url('../images/checkmark.png') inside;
+ */
+}
+
+
+/* what are the psuedo classes? */
+ul li:nth-child(odd){
+    color: #c00;
+}
+
+/* what is a psuedo element??? */
+ul ::marker {
+    color: #0c0;
+    font-family: fantasy;
+    content: "only $2 >>";
+}
